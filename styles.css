@@ -111,6 +111,12 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 32px;
+    margin-bottom: 32;
+    text-align: center;
+}
+
 button {
     cursor: pointer;
 }
@@ -226,6 +232,7 @@ FEATURES
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
