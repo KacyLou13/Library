@@ -6,6 +6,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     max-width: 100vw;
     overflow-x: hidden;
@@ -24,6 +28,14 @@ img {
 
 p {
     line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .nav__container {
@@ -320,5 +332,5 @@ footer {
     margin: 20px 0 24px 0;
 }
 .footer__link {
-   
+   padding: 0 8px;
 }
